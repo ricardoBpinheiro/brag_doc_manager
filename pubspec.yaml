@@ -1,0 +1,36 @@
+name: brag_doc_manager
+description: "Brag Document Manager"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.4.0
+  flutter_bloc: ^9.1.1
+  go_router: ^17.0.1
+  get_it: ^9.2.0
+  flutter_quill: ^11.5.0
+  dropdown_search: ^6.0.2
+  timeline_tile: ^2.0.0
+  intl: ^0.20.2
+  cloud_firestore: ^6.1.2
+  connectivity_plus: ^7.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
