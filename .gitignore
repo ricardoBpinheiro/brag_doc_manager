@@ -23,6 +23,7 @@ build/
 local.properties
 */android/app/src/main/assets/flutter_assets/*
 android/app/google-services.json
+key.properties
 
 # Android/Eclipse
 bin/
@@ -62,3 +63,5 @@ lib/firebase_options.dart
 google-services.json
 firebase_options.dart
 firebase.json
+.env
+.env.*
